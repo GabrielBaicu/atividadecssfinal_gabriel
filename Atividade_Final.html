@@ -7,29 +7,62 @@
     <style>
         *{
             text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         #rosait{
             color:hotpink
+        }
+        #salmao{
+            color: salmon;
+        }
+        #funazu{
+            background-color: lightblue;
+        }
+        .full{
+            border: 5px solid black;
+        }
+        .line{
+            border: 10px solid black;
+            background-color: white;
+            height: 1px;
+            opacity: 1;
+        }
+        #borda1{
+            border: 2px solid olive;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #borda2{
+            border: 2px solid olive;
+            text-decoration: underline;
+            color:green;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #exemplo{
+            background-color: blueviolet;
+            text-decoration: underline;
+            color:darkgoldenrod;
         }
     </style>
 </head>
 <body>
     <h1>PÁGINA TESTE CSS</h1>
-    <hr>
+    <hr class="full">
     <img src="_IMAGES/css01.jpg" alt="css01" width="300px" height="200px">
     <img src="_IMAGES/css02.jpg" alt="css02" width="300px" height="200px">
     <img src="_IMAGES/css03.jpg" alt="css03" width="300px" height="200px">
     <img src="_IMAGES/css04.png" alt="css04" width="300px" height="200px">
-    <hr>
+    <hr class="line">
     <h1 id="salmao">CSS É VIDA!</h1>
     <p>Diversas possibilidades de incrementar seu HTML</p>
     <h1><b>Exemplo de Cores no CSS</b></h1>
-    <p><b>Exemplo de texto com cor de fundo</b></p>
-    <hr>
+    <p id="funazu"><b>Exemplo de texto com cor de fundo</b></p>
+    <hr class="full">
     <p id="rosait"><i><b>Exemplo de texto com mudança de cor da fonte</b></i></p>
-    <hr>
+    <hr class="line">
     <h1 id="borda1">Exemplo de texto com borda colorida</h1>
     <h1>Misturando Tudo</h1>
-    <h1 id="borda2"><Exemplo de texto com varias formatações</h1>
+    <h1 id="borda2">Exemplo de texto com varias formatações</h1>
+    <hr class="line">
+    <h1 id="exemplo"><i>Mais um exemplo</i></h1>
 </body>
 </html>
